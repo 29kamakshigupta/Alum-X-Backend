@@ -55,3 +55,12 @@ Allows users (especially alumni) to share job opportunities with the community.
 -Lets users send and accept connection requests.
 -Works quietly in the background so other features like chat or profile suggestions know your connections.
 -Makes it easy to build a network of people inside the app.
+
+
+## User Service 
+Handles everything related to users in the application.
+
+-Stores basic details about each user like name, email, and profile data.
+-Helps create a new user when someone signs up.
+-Makes sure user data can be fetched whenever other services need it.
+-Acts as the main place where user-related information lives.
